@@ -35,7 +35,7 @@
   --rule-hair:       rgba(5, 49, 84, 0.14);
 
   /* --- The office's ink --- */
-  --stamp:           #0A7F89;
+  --stamp:           #086C75;
 
   /* --- The reader's two inks --- */
   --pen:             #C02518;
@@ -319,8 +319,8 @@ mark {
 /* Dark stocks: paper toner, yellow inks */
 .sheet--navy, .sheet--teal, .sheet--red {
   --toner:     var(--paper);
-  --toner-2:   rgba(246, 242, 231, 0.92);
-  --toner-3:   rgba(246, 242, 231, 0.75);
+  --toner-2:   rgba(246, 242, 231, 0.95);
+  --toner-3:   rgba(246, 242, 231, 0.8);
   --rule:      rgba(246, 242, 231, 0.32);
   --rule-2:    rgba(246, 242, 231, 0.55);
   --rule-hair: rgba(246, 242, 231, 0.18);
@@ -487,7 +487,7 @@ h1.applicant span { display: block; }
   border-top: 2px solid var(--toner);
   color: var(--pen);
   font-family: "Libre Franklin", Arial, sans-serif;
-  font-size: clamp(1.0625rem, 0.98rem + 0.5vw, 1.3125rem);
+  font-size: clamp(1.1875rem, 1.1rem + 0.5vw, 1.3125rem);
   font-weight: 800;
   line-height: 1.32;
   letter-spacing: -0.015em;
